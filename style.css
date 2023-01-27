@@ -106,13 +106,14 @@ form{
 label{
     width: 100%;
     color: white;
-    font-size:5vw;
+    font-size:6rem;
     margin-bottom: .5em;
 }
 
 @media screen and (min-width: 768px){
     form{
         padding-top: .5em;
+        padding-bottom: 7em
     }
     label{
         font-size: 2rem;
@@ -143,9 +144,10 @@ label{
         text-align: center;
         justify-self: center;
         /* font-size: 2rem; */
+        border-radius: 0.8rem;
 }
 .wrap p{
-    font-size: .4rem;
+    font-size: .8rem;
     font-weight: 500;
     color: gray;
     text-transform: uppercase;
